@@ -1,7 +1,7 @@
 {
   "$id": "wp_pages",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
-  "description": "",
+  "description": "WordPress pages",
   "displayName": "Page",
   "enabled": true,
   "field": [
