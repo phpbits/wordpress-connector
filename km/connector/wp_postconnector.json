@@ -35,6 +35,11 @@
         "type": "JSON",
         "header": "Folder",
         "path": "folder"
+      },
+	  {
+        "type": "JSON",
+        "header": "Labels",
+        "path": "labels"
       }
     ]
   },
@@ -57,6 +62,11 @@
 	{
       "field": "folder",
       "header": "Folder",
+      "subfieldPath": []
+    },
+	{
+      "field": "labels",
+      "header": "Labels",
       "subfieldPath": []
     }
   ],
