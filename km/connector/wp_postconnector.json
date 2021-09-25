@@ -13,7 +13,7 @@
     "baseSelector": {
       "type": "JSON",
       "header": "Entity Container",
-      "path": "resources"
+      "path": "wp_posts"
     },
     "selectors": [
       {
@@ -35,12 +35,12 @@
   },
   "mappings": [
     {
-      "field": "id",
+      "field": "entityId",
       "header": "Entity ID",
       "subfieldPath": []
     },
     {
-      "field": "content",
+      "field": "body",
       "header": "Content",
       "subfieldPath": []
     },
