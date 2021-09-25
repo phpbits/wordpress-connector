@@ -1,0 +1,57 @@
+{
+  "$id": "wp_postconnector",
+  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "displayName": "WordPress post type connector",
+  "entityType": "wp_posts",
+  "source": {
+    "sourceConfig": {
+      "apiPushConfig": {
+        "app": "127538",
+        "dataFormat": "JSON"
+      }
+    },
+    "baseSelector": {
+      "type": "JSON",
+      "header": "Entity Container",
+      "path": "resources"
+    },
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "Entity ID",
+        "path": "id"
+      },
+      {
+        "type": "JSON",
+        "header": "Title",
+        "path": "title"
+      },
+      {
+        "type": "JSON",
+        "header": "Content",
+        "path": "content"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "entityId",
+      "header": "Entity ID",
+      "subfieldPath": []
+    },
+    {
+      "field": "body",
+      "header": "Content",
+      "subfieldPath": []
+    },
+    {
+      "field": "name",
+      "header": "Title",
+      "subfieldPath": []
+    }
+  ],
+  "scheduleConfig": {
+    "useSourceSchedule": true,
+    "runMode": "DEFAULT"
+  }
+}
