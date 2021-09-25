@@ -2,6 +2,6 @@
   "$id": "constructUrl",
   "$schema": "https://schema.yext.com/config/platform/plugin/v1",
   "globals": {
-    "domain": "${{WP_SITEURL}}"
+    "domain": "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
   }
 }
