@@ -30,6 +30,11 @@
         "type": "JSON",
         "header": "Content",
         "path": "content"
+      },
+	  {
+        "type": "JSON",
+        "header": "Folder",
+        "path": "folder"
       }
     ]
   },
@@ -47,6 +52,11 @@
     {
       "field": "name",
       "header": "Title",
+      "subfieldPath": []
+    },
+	{
+      "field": "folder",
+      "header": "Folder",
       "subfieldPath": []
     }
   ],
