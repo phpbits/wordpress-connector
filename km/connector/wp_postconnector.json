@@ -35,17 +35,17 @@
   },
   "mappings": [
     {
-      "field": "entityId",
+      "field": "id",
       "header": "Entity ID",
       "subfieldPath": []
     },
     {
-      "field": "body",
+      "field": "content",
       "header": "Content",
       "subfieldPath": []
     },
     {
-      "field": "name",
+      "field": "title",
       "header": "Title",
       "subfieldPath": []
     }
