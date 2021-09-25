@@ -1,5 +1,5 @@
-declare var sitename: string;
+declare var domain: string;
 
 export function constructUrl(s: string) {
-    return sitename + s;
+    return domain + s;
 }
