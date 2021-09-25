@@ -45,7 +45,7 @@
       "subfieldPath": []
     },
     {
-      "field": "title",
+      "field": "name",
       "header": "Title",
       "subfieldPath": []
     }
