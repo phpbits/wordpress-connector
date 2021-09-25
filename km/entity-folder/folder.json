@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.yext.com/config/km/entity-folder",
+  "$version": "1",
+  "type": "object",
+  "title": "Entity Folder",
+  "description": "Folder containing entities and sub-folders.",
+  "properties": {
+    "$id": {
+      "type": "string",
+      "description": "The unique identifier for the folder resource."
+    },
+    "$schema": {
+      "const": "https://schema.yext.com/config/km/entity-folder/v1"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display Name of the folder."
+    },
+    "parent": {
+      "type": "string",
+      "format": "km/entity-folder",
+      "description": "The unique identifier for parent of this resource. If the parent is the customer-level (root) folder, the parent will be \"yext/root\"."
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "$id",
+    "$schema",
+    "name",
+    "parent"
+  ]
+}
