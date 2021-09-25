@@ -1,6 +1,6 @@
 {
+  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
   "$id": "https://schema.yext.com/config/km/entity-folder",
-  "$version": "1",
   "type": "object",
   "title": "Entity Folder",
   "description": "Folder containing entities and sub-folders.",
