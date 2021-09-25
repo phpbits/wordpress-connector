@@ -1,7 +1,7 @@
 {
   "$id": "wp_postconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
-  "displayName": "WordPress post type connector",
+  "displayName": "WordPress",
   "entityType": "wp_posts",
   "source": {
     "sourceConfig": {
