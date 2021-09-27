@@ -33,9 +33,6 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "mainPhone": {
-          "directAnswer": true
-        },
         "name": {
           "textSearch": true
         }
