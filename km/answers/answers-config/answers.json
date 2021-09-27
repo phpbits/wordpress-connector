@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
   "$id": "wp_answers",
-  "name": "wp_answers",
+  "name": "WordPress Answers Experience",
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
