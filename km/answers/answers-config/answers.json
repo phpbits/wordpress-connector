@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "wp_answers",
+  "name": "wp_answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "posts": {
+      "entityTypes": [
+        "post"
+      ],
+      "name": "Posts",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "pages": {
+      "entityTypes": [
+        "page"
+      ],
+      "name": "Pages",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "mainPhone": {
+          "directAnswer": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "localizations": {}
+}
