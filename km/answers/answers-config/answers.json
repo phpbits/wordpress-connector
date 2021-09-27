@@ -16,6 +16,9 @@
         },
         "name": {
           "textSearch": true
+        },
+		"body": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -30,10 +33,10 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "builtin.location": {
-          "nlpFilter": true
-        },
         "name": {
+          "textSearch": true
+        },
+		"body": {
           "textSearch": true
         }
       },
