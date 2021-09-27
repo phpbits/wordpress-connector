@@ -28,6 +28,10 @@
     {
       "id": "yext/entityId",
       "required": true
+    },
+	{
+      "id": "yext/fields",
+      "required": false
     }
   ],
   "pluralDisplayName": "Posts"
