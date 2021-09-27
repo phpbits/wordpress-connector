@@ -5,9 +5,9 @@
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
-    "posts": {
+    "wp_posts": {
       "entityTypes": [
-        "post"
+        "wp_posts"
       ],
       "name": "Posts",
       "searchableFields": {
@@ -21,9 +21,9 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "pages": {
+    "wp_pages": {
       "entityTypes": [
-        "page"
+        "wp_pages"
       ],
       "name": "Pages",
       "searchableFields": {
