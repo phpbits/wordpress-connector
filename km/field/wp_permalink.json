@@ -1,8 +1,8 @@
 {
   "$id": "wp_permalink",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "WordPress connected website url.",
-  "displayName": "Site URL",
+  "description": "The url from the WordPress website.",
+  "displayName": "Permalink",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {
