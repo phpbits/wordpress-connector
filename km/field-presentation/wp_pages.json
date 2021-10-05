@@ -1,0 +1,38 @@
+{
+  "$id": "fields_wp_pages",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "wp_pages",
+  "displayName": "Post",
+  "presentationEntries": [
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name"
+        },
+        {
+          "id": "entityId"
+        },
+		{
+          "id": "body"
+        },
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    },
+    {
+      "displayName": "Custom Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "wp_permalink"
+        }
+      ]
+    }
+  ]
+}
