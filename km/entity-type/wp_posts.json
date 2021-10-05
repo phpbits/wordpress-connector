@@ -28,6 +28,10 @@
     {
       "id": "yext/entityId",
       "required": true
+    },
+    {
+      "id": "wp_permalink",
+      "required": false
     }
   ],
   "pluralDisplayName": "Posts"
