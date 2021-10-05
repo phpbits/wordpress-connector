@@ -12,12 +12,6 @@
           ],
           "type": "IS_IN"
         }
-      },
-      {
-        "dateTimePastFuture": {
-          "type": "FUTURE"
-        },
-        "fieldId": "time.end"
       }
     ],
     "entityType": [
