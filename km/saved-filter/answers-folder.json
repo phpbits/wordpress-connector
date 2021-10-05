@@ -5,7 +5,7 @@
   "filter": {
     "entityField": [
       {
-        "fieldId": "yext/labels",
+        "fieldId": "labels",
         "filterOption": {
           "choice": [
             "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
