@@ -10,7 +10,7 @@
           "choice": [
             "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
           ],
-          "type": "IS_IN"
+          "type": "IS"
 		}
       }
     ],
