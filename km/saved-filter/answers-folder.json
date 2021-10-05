@@ -5,7 +5,7 @@
   "filter": {
     "entityField": [
       {
-        "fieldId": "wp_siteUrl",
+        "fieldId": "wp_permalink",
         "text": {
           "search": [
             "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
