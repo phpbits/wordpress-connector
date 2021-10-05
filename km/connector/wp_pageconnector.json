@@ -1,0 +1,87 @@
+{
+  "$id": "wp_pageconnector",
+  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "displayName": "WordPress",
+  "entityType": "wp_page",
+  "source": {
+    "sourceConfig": {
+      "apiPushConfig": {
+        "app": "127538",
+        "dataFormat": "JSON"
+      }
+    },
+    "baseSelector": {
+      "type": "JSON",
+      "header": "Entity Container",
+      "path": "wp_page"
+    },
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "Entity ID",
+        "path": "id"
+      },
+      {
+        "type": "JSON",
+        "header": "Title",
+        "path": "title"
+      },
+      {
+        "type": "JSON",
+        "header": "Content",
+        "path": "content"
+      },
+	  {
+        "type": "JSON",
+        "header": "Folder",
+        "path": "folder"
+      },
+	  {
+        "type": "JSON",
+        "header": "Labels",
+        "path": "labels"
+      },
+	  {
+        "type": "JSON",
+        "header": "Permalink",
+        "path": "wp_permalink"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "entityId",
+      "header": "Entity ID",
+      "subfieldPath": []
+    },
+    {
+      "field": "body",
+      "header": "Content",
+      "subfieldPath": []
+    },
+    {
+      "field": "name",
+      "header": "Title",
+      "subfieldPath": []
+    },
+	{
+      "field": "folder",
+      "header": "Folder",
+      "subfieldPath": []
+    },
+	{
+      "field": "labels",
+      "header": "Labels",
+      "subfieldPath": []
+    },
+	{
+      "field": "wp_permalink",
+      "header": "Permalink",
+      "subfieldPath": []
+    }
+  ],
+  "scheduleConfig": {
+    "useSourceSchedule": true,
+    "runMode": "DEFAULT"
+  }
+}
