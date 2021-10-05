@@ -1,8 +1,8 @@
 {
-  "$id": "wp_pages",
+  "$id": "wp_post",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
-  "description": "WordPress pages",
-  "displayName": "Page",
+  "description": "WordPress posts",
+  "displayName": "Post",
   "enabled": true,
   "field": [
     {
@@ -29,10 +29,10 @@
       "id": "yext/entityId",
       "required": true
     },
-	{
+    {
       "id": "wp_permalink",
       "required": false
     }
   ],
-  "pluralDisplayName": "Pages"
+  "pluralDisplayName": "Posts"
 }

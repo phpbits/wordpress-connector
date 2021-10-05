@@ -17,8 +17,8 @@
     "entityType": [
       {
         "entityTypeId": [
-          "wp_posts",
-          "wp_pages"
+          "wp_post",
+          "wp_page"
         ],
         "type": "IS"
       }

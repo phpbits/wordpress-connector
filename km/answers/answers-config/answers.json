@@ -5,9 +5,9 @@
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
-    "wp_posts": {
+    "wp_post": {
       "entityTypes": [
-        "wp_posts"
+        "wp_post"
       ],
       "name": "Posts",
 	  "savedSearchId": "1392741",
@@ -25,9 +25,9 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "wp_pages": {
+    "wp_page": {
       "entityTypes": [
-        "wp_pages"
+        "wp_page"
       ],
       "name": "Pages",
 	  "savedSearchId": "1392741",

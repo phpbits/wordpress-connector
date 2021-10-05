@@ -2,7 +2,7 @@
   "$id": "wp_postconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
   "displayName": "WordPress",
-  "entityType": "wp_posts",
+  "entityType": "wp_post",
   "source": {
     "sourceConfig": {
       "apiPushConfig": {
@@ -13,7 +13,7 @@
     "baseSelector": {
       "type": "JSON",
       "header": "Entity Container",
-      "path": "wp_posts"
+      "path": "wp_post"
     },
     "selectors": [
       {
