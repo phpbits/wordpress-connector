@@ -5,7 +5,9 @@
   "filter": {
     "entityFolder": [
       {
-        "folderId": "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}",
+        "folderId": [
+			"${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
+		],
         "type": "IS_IN"
       }
     ],
