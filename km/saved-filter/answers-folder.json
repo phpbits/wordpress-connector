@@ -5,12 +5,12 @@
   "filter": {
     "entityField": [
       {
-        "fieldId": "folder",
-        "filterOption": {
-          "choice": [
+        "fieldId": "yext/folder",
+        "text": {
+          "search": [
             "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
           ],
-          "type": "IS"
+          "type": "IS_IN"
         }
       },
       {
