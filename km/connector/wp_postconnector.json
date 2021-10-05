@@ -40,6 +40,11 @@
         "type": "JSON",
         "header": "Labels",
         "path": "labels"
+      },
+	  {
+        "type": "JSON",
+        "header": "Permalink",
+        "path": "permalink"
       }
     ]
   },
@@ -67,6 +72,11 @@
 	{
       "field": "labels",
       "header": "Labels",
+      "subfieldPath": []
+    },
+	{
+      "field": "wp_permalink",
+      "header": "Permalink",
       "subfieldPath": []
     }
   ],

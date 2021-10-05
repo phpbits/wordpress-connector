@@ -30,7 +30,7 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "wp_siteUrl"
+          "id": "wp_permalink"
         }
       ]
     }

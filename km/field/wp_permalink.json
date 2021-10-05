@@ -1,5 +1,5 @@
 {
-  "$id": "wp_siteUrl",
+  "$id": "wp_permalink",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "description": "WordPress connected website url.",
   "displayName": "Site URL",
