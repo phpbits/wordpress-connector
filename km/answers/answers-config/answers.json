@@ -10,7 +10,7 @@
         "wp_posts"
       ],
       "name": "Posts",
-	  "savedSearchId": "139274",
+	  "savedSearchId": "1392741",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -30,7 +30,7 @@
         "wp_pages"
       ],
       "name": "Pages",
-	  "savedSearchId": "139274",
+	  "savedSearchId": "1392741",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
