@@ -5,13 +5,13 @@
   "filter": {
     "entityField": [
       {
-        "fieldId": "labels",
-        "filterOption": {
-          "choice": [
+        "fieldId": "wp_siteUrl",
+        "text": {
+          "search": [
             "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
           ],
-          "type": "IS"
-		}
+          "type": "CONTAINS"
+        }
       }
     ],
     "entityType": [

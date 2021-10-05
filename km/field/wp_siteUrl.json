@@ -1,0 +1,14 @@
+{
+  "$id": "wp_siteUrl",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "WordPress connected website url.",
+  "displayName": "Site URL",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "typeId": "string"
+}
