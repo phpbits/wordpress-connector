@@ -1,7 +1,7 @@
 {
-  "$id": "ce_wp_posts",
+  "$id": "fields_wp_posts",
   "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "ce_wp_posts",
+  "entityType": "wp_posts",
   "displayName": "Post",
   "presentationEntries": [
     {
