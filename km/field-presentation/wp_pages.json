@@ -8,11 +8,11 @@
       "displayName": "Core Information",
       "entryType": "SECTION",
       "fields": [
-        {
-          "id": "name"
+		{
+          "id": "entityId"
         },
         {
-          "id": "entityId"
+          "id": "name"
         },
 		{
           "id": "body"
