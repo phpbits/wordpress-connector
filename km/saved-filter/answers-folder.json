@@ -1,0 +1,33 @@
+{
+  "$id": "139274",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "WordPress Folder Filter",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "folder",
+        "filterOption": {
+          "choice": [
+            "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
+          ],
+          "type": "IS"
+        }
+      },
+      {
+        "dateTimePastFuture": {
+          "type": "FUTURE"
+        },
+        "fieldId": "time.end"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "wp_posts",
+          "wp_pages"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

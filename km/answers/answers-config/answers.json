@@ -10,6 +10,7 @@
         "wp_posts"
       ],
       "name": "Posts",
+	  "savedSearchId": "139274",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -29,6 +30,7 @@
         "wp_pages"
       ],
       "name": "Pages",
+	  "savedSearchId": "139274",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
