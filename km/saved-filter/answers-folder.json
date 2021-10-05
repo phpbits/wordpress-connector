@@ -3,14 +3,6 @@
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
   "name": "WordPress Folder Filter",
   "filter": {
-    "entityFolder": [
-      {
-        "entityFolderId": [
-          "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}"
-        ],
-        "type": "IS"
-      }
-    ],
     "entityType": [
       {
         "entityTypeId": [
