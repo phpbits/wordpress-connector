@@ -1,13 +1,13 @@
 {
-  "$id": "wp_postconnector",
+  "$id": "wp_categoryconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v2",
   "displayName": "WordPress",
-  "entityType": "wp_post",
+  "entityType": "wp_category",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "${{WP_SITEURL}}/wp-json/wp/v2/posts",
+        "url": "${{WP_SITEURL}}/wp-json/wp/v2/categories",
         "paginationControl": {
           "pageBasedPagination": {
             "pageKey": "page",
@@ -39,22 +39,17 @@
       {
         "type": "JSON",
         "header": "Title",
-        "path": "title.rendered"
+        "path": "name"
       },
       {
         "type": "JSON",
         "header": "Content",
-        "path": "content.rendered"
+        "path": "description"
       },
 	  {
         "type": "JSON",
         "header": "Permalink",
         "path": "link"
-      },
-	  {
-        "type": "JSON",
-        "header": "Category",
-        "path": "categories"
       }
     ]
   },
@@ -77,11 +72,6 @@
 	{
       "field": "wp_permalink",
       "header": "Permalink",
-      "subfieldPath": []
-    },
-	{
-      "field": "wp_category",
-      "header": "Category",
       "subfieldPath": []
     }
   ],

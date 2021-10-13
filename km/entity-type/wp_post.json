@@ -32,6 +32,10 @@
     {
       "id": "wp_permalink",
       "required": false
+    },
+    {
+      "id": "wp_category",
+      "required": false
     }
   ],
   "pluralDisplayName": "Posts"

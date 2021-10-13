@@ -1,0 +1,21 @@
+{
+  "$id": "wp_category",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "The posts category.",
+  "displayName": "Category",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+            "supportedEntityTypeIds": [
+            "wp_post"
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}
