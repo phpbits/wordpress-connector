@@ -27,7 +27,7 @@
     },
     "baseSelector": {
       "type": "JSON",
-      "header": "data",
+      "header": "wp_posts",
       "path": "wp_posts"
     },
     "selectors": [
