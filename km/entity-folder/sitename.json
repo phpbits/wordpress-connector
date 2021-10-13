@@ -1,6 +1,6 @@
 {
-  "$id": "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}",
+  "$id": "${{WP_SITEURL}}",
   "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "${{WP_SITEURL_WITHOUT_HTTP_WWW_AND_SLASHES}}",
+  "name": "${{WP_SITEURL}}",
   "parent": "yext/root"
 }
