@@ -21,6 +21,11 @@
         "dataFormat": "JSON"
       }
     },
+    "baseSelector": {
+      "type": "JSON",
+      "header": "Entity Container",
+      "path": "[]"
+    },
     "selectors": [
       {
         "type": "JSON",
