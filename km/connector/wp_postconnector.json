@@ -70,11 +70,6 @@
       "subfieldPath": []
     },
 	{
-      "field": "labels",
-      "header": "Labels",
-      "subfieldPath": []
-    },
-	{
       "field": "wp_permalink",
       "header": "Permalink",
       "subfieldPath": []
