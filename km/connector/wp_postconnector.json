@@ -15,20 +15,11 @@
             "detectCursorInHeader": false
           }
         },
-        "headers": {
-          "Accept": "application/vnd.api+json",
-          "Content-Type": "application/vnd.api+json"
-        },
         "queryParams": {
           "per_page": "5"
         },
         "dataFormat": "JSON"
       }
-    },
-    "baseSelector": {
-      "type": "JSON",
-      "header": "Entity Container",
-      "path": "wp_posts"
     },
     "selectors": [
       {
