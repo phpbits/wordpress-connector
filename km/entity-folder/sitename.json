@@ -1,6 +1,0 @@
-{
-  "$id": "${{WP_SITEURL}}",
-  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
-  "name": "${{WP_SITEURL}}",
-  "parent": "yext/root"
-}
