@@ -17,6 +17,14 @@
       "id": "yext/entityId",
       "required": true
     },
+	{
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
     {
       "id": "wp_permalink",
       "required": false
