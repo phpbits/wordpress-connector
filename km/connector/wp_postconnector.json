@@ -9,10 +9,14 @@
         "requestType": "GET",
         "url": "${{WP_SITEURL}}/wp-json/wp/v2/posts",
         "paginationControl": {
-          "cursorPagination": {
-            "cursor": "links.next",
-            "cursorType": "FULL_URL",
-            "detectCursorInHeader": false
+          "pageBasedPagination": {
+            "pageKey": "page",
+            "pageStartValue": 1,
+            "limitKey": "X-WP-Total",
+			"totalPages": {
+				"key" : "X-WP-TotalPages",
+				"inHeader": true
+			}
           }
         },
         "queryParams": {
